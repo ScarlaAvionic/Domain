@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biografi Mahasiswa Teknik Informatika</title>
+    <style>
+        /* Gaya Umum */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f1f1;
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #615a5a;
+        }
+
+        /* Header */
+        header {
+            background-color: #ffffff;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+            letter-spacing: 2px;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* About Section */
+        #about {
+            background-color: white;
+            padding: 40px;
+            margin-top: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        #about h2 {
+            margin-top: 0;
+            font-size: 32px;
+        }
+
+        #about p {
+            margin-bottom: 20px;
+        }
+
+        /* Photo */
+        #photo {
+            float: left;
+            width: 250px;
+            margin-right: 30px;
+        }
+
+        #photo img {
+            border-radius: 50%;
+            width: 100%;
+            height: auto;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2));
+        }
+
+        /* Pengalaman dan Proyek */
+        #experience h3 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        #experience ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #experience ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Clearfix */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #9aa161;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Biografi Mahasiswa Teknik Informatika</h1>
+    </header>
+
+    <!-- Biografi Section -->
+    <div class="container">
+        <section id="about" class="clearfix">
+            <div id="photo">
+                <img src="viqriza.png" alt="Foto Profil Mahasiswa">
+            </div>
+            <div id="bio">
+                <h2>Nama Lengkap: Viqriza Achmad Vahira</h2>
+                <p>Saya adalah seorang mahasiswa Teknik Informatika di Universitas Islam Negeri Sunan Gunung Djati Bandung, dengan minat yang mendalam pada pengembangan perangkat lunak, kecerdasan buatan, dan keamanan siber. Selama masa kuliah, saya aktif mengikuti berbagai kegiatan akademik
+                   maupun non-akademik yang membantu mengembangkan kemampuan teknis dan kepemimpinan saya.</p>
+
+                <p>Keahlian saya meliputi bahasa pemrograman seperti Python, Java, dan C++, serta pemahaman yang kuat tentang algoritma, struktur data, dan basis data. Selain itu, saya tertarik untuk mendalami bidang machine learning dan deep learning sebagai bagian dari perkembangan teknologi masa depan.</p>
+
+                <h3>Pengalaman dan Proyek</h3>
+                <section id="experience">
+                    <ul>
+                        <li><strong>Magang di Perusahaan Teknologi</strong> - Saya bekerja sebagai developer magang di Google Developer, di mana saya terlibat dalam pengembangan aplikasi web menggunakan React dan Node.js. Saya belajar bekerja dalam tim, memecahkan masalah nyata, dan memahami alur kerja industri teknologi.</li>
+                        <li><strong>Proyek Machine Learning</strong> - Dalam proyek individu, saya membangun model prediksi menggunakan Python dan library scikit-learn untuk Meng design Gooogle sekreatif mungkin, berdasarkan dataset yang tersedia secara publik. Proyek ini memperdalam pemahaman saya tentang regresi linier dan evaluasi model.</li>
+                        <li><strong>Keamanan Siber</strong> - Saya juga tertarik dalam keamanan siber, dan berpartisipasi dalam beberapa CTF (Capture the Flag) yang diadakan oleh komunitas siber universitas. Ini mengajarkan saya tentang enkripsi, eksploitasi sistem, dan pengamanan data.</li>
+                    </ul>
+                </section>
+
+                <h3>Organisasi dan Kegiatan</h3>
+                <p>Saya aktif dalam organisasi kampus seperti Himatif atau disebut juga Himpunan Mahasiswa Teknik Informatika, di mana saya menjabat sebagai koordinator divisi teknologi. Selain itu, saya juga terlibat dalam beberapa kegiatan sosial yang melibatkan edukasi teknologi kepada anak-anak di daerah terpencil.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Viqriza Ahmad Vahira. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
